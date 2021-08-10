@@ -2,7 +2,6 @@ import React from 'react'
 import web from '../src/img/home.png'
 import Common from './Common'
 
-
 const Home = () => {
     return (
      < >

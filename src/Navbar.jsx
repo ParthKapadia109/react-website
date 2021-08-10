@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="container-fluid nav_bg">
+      <div className="container nav_bg">
         <div className="row">
-          <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="col-12 mx-auto">
+            <nav className="navbar navbar-expand-lg navbar-light ">
               <div className="container-fluid">
                 <NavLink
                   activeClassName="btn_active"
@@ -29,7 +29,7 @@ const Navbar = () => {
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarNav">
-                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item  ">
                       <NavLink
                         activeClassName="btn_active"
