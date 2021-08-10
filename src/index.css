@@ -12,7 +12,6 @@ body {
 .navbar a {
   text-decoration: none;
 }
-
 .btn_active {
   font-weight: bold;
   border-bottom: violet;
@@ -23,7 +22,7 @@ body {
 .header-img {
   width: fit-content;
   height: auto;
-  text-align: right;
+
 }
 .animation {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -44,7 +43,6 @@ body {
     transform: translateY(-10px);
   }
 }
-
 @media (max-width: 991px) {
   #header {
     height: 80vh;
@@ -57,7 +55,6 @@ body {
     width: 60%;
   }
 }
-
 @media (max-width: 768px) {
   #header {
     margin-top: 20px;
